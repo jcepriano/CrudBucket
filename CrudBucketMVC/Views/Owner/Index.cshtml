@@ -1,0 +1,8 @@
+﻿@model IEnumerable<CrudBucketMVC.Models.Owner>
+
+<h1>Owner Information</h1>
+
+@foreach(var owner in Model)
+{
+    <p><strong>Name:</strong> @owner.Name, <strong>Phone Number:</strong> @owner.phoneNumber, <strong>Email:</strong> @owner.Email</p>
+}
